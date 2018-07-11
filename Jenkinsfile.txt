@@ -5,6 +5,7 @@ node {
     stage('Test') { 
         sleep 60
     }
+	
     stage('Deploy') { 
         sleep 90
     }
