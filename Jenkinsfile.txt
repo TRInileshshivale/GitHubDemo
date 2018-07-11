@@ -1,0 +1,11 @@
+node {  
+    stage('Build') { 
+       sleep 50 
+    }
+    stage('Test') { 
+        sleep 60
+    }
+    stage('Deploy') { 
+        sleep 90
+    }
+}
